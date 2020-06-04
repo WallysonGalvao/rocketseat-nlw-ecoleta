@@ -9,7 +9,7 @@
 </p>
 
 <h2>
-<strong>Backend</strong> da aplicação Ecoleta.
+  <strong>Backend</strong> da aplicação Ecoleta.
 </h2>
 
 ## :rocket: Tecnologias
@@ -43,7 +43,7 @@ Para a criar o banco de dados, é disponibilizado **migrations** dentro do diret
 $ yarn knex:migrate
 ```
 
-### Migrations
+### Seed
 
 Para popular o banco de dados, é disponibilizado **seeds** dentro do diretório **/src/database**, rodar o seguinte comando na raiz do projeto:
 

@@ -53,6 +53,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Typescript](https://www.typescriptlang.org/)
 - [Knex](http://knexjs.org/)
 
+- [Leafletjs](https://leafletjs.com/) | [React-leaflet](https://react-leaflet.js.org/)
+- [IBGE API](https://servicodados.ibge.gov.br/api/docs)
+
 ## :notebook: Executando
 
 Dentro do **README** de cada subpasta do projeto é detalhado como executar as aplicações.
@@ -63,6 +66,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-<div align="center">
 Feito com horas em frente ao :computer: por [Wallyson Galvão](https://www.linkedin.com/in/wallyson-galvao/)
-</div>
