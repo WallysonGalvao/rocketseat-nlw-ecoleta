@@ -19,8 +19,6 @@
 - Express
 - Knex + SQLite3
 
-### 1. Visualizar de casos
-
 ## :zap: Rodando o projeto
 
 1 - Em um terminal, entrar na raiz do projeto **/backend** e rodar o comando:
@@ -36,12 +34,6 @@ $ yarn dev:server
 ```
 
 Feito isso, acessar o endereço http://localhost:3333
-
-Se desejar, pode rodar o projeto em modo debug, usando o seguinte comando:
-
-```
-$ yarn dubug
-```
 
 ### Migrations
 
@@ -63,4 +55,4 @@ $ yarn knex:seed
 
 Você pode executar online ou fazer o download dos endpoints e executar diretamente no Insomnia:
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=&uri=https%3A%2F%2Fraw.githubusercontent.com%2FWallysonGalvao%2Frocketseat-omnistack-semana11%2Fmaster%2Fbackend%2Fendpoints.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=&uri=https%3A%2F%2Fraw.githubusercontent.com%2FWallysonGalvao%2Frocketseat-nlw-ecoleta%2Fmaster%2Fbackend%2Fendpoints.json)

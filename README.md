@@ -1,10 +1,13 @@
 <h1 align="center">
-    <img alt="EColeta" title="#delicinha" src=".github/logo.svg" width="250px" />
-    
+    <img alt="NextLevelWeek" title="#nextlevelweek" src=".github/nlw-logo.svg" width="250px" />
+</h1>
+
+<h1 align="center">
+    <img alt="Ecoleta" title="#delicinha" src=".github/logo.svg" width="250px" />
 </h1>
 
 <h4 align="center">
-  🚀 Next Level Week Ecoleta 1.0
+  🚀 Next Level Week 1.0 - Ecoleta
 </h4>
 
 <p align="center">
@@ -25,6 +28,7 @@
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-executando">Executando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
@@ -33,7 +37,11 @@
 
 ## 💻 Projeto
 
-Esse projeto foi desenvolvido durante a Next Level Week promovida pela Rocketseat. Trata-se de um projeto fullstack para uma empresa de coleta ficticia, a Ecoleta, o projeto consiste na parte frontend(React), mobile(React Native) e backend(NodeJs).
+Esse projeto foi desenvolvido durante a Next Level Week promovida pela Rocketseat. Trata-se de um projeto fullstack para uma empresa de coleta (orgânica e inorgânica) ficticia, a Ecoleta, o projeto consiste na parte frontend(React), mobile(React Native) e backend(NodeJs) - juntamente com typescript em todas as partes.
+
+## 🎨 Layout
+
+Você pode utilizar a seguinte URL para visualizar todas as telas: [Visualizar](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546)
 
 ## :rocket: Tecnologias
 

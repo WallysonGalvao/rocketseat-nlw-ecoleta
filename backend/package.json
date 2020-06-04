@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "author": "Wallyson Galvão<wallyson.galvao@gmail.com>",
+  "layout": "https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
