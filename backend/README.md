@@ -14,9 +14,7 @@
 
 ## :rocket: Tecnologias
 
-### **Ferramentas usadas**
-
-- Express
+- Node + Express
 - Knex + SQLite3
 
 ## :zap: Rodando o projeto

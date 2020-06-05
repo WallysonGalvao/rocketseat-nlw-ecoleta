@@ -47,12 +47,10 @@ Você pode utilizar a seguinte URL para visualizar todas as telas: [Visualizar](
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [Typescript](https://www.typescriptlang.org/)
-- [Knex](http://knexjs.org/)
-
+- [Node.js](https://nodejs.org/en/) | [Express](https://expressjs.com/pt-br/)
+- [React](https://reactjs.org/) | [React Native](https://reactnative.dev/)
+- [Knex](http://knexjs.org/) || [SQLite3](https://www.sqlite.org/index.html)
 - [Leafletjs](https://leafletjs.com/) | [React-leaflet](https://react-leaflet.js.org/)
 - [IBGE API](https://servicodados.ibge.gov.br/api/docs)
 

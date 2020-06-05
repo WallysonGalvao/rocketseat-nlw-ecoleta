@@ -14,6 +14,13 @@ A versão web do projeto Ecoleta representa a visão para cadastro dos pontos de
 
 - Cadastrar pontos de coleta;
 
+## :rocket: Tecnologias
+
+- React + Rect Icons
+- Axios
+- Leafletjs + React-leaflet
+- IBG API
+
 ## :zap: Rodando o projeto
 
 ### Pré-requisitos
