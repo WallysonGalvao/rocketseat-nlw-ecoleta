@@ -5,6 +5,8 @@ import { Map, TileLayer, Marker } from "react-leaflet";
 import { LeafletMouseEvent } from "leaflet";
 import axios from "axios";
 
+import Dropzone from "../../components/Dropzone";
+
 import api from "../../services/api";
 
 import logo from "../../assets/logo.svg";
@@ -49,6 +51,7 @@ const CreatePoint: React.FC = () => {
     0,
     0,
   ]);
+  const [selectedFile, setSelectedFile] = useState<File>();
 
   const IBGE_API_URL = "https://servicodados.ibge.gov.br/api/v1/";
   const IBGE_URL_PATH = "/localidades/estados";
@@ -112,7 +115,30 @@ const CreatePoint: React.FC = () => {
   async function handleSubmit(event: ChangeEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    await api.post("points", data);
+    const formData = new FormData();
+
+    const {
+      email,
+      city,
+      items,
+      latitude,
+      longitude,
+      name,
+      uf,
+      whatsapp,
+    } = data;
+
+    formData.append("email", email);
+    formData.append("city", city);
+    formData.append("items", items.join(","));
+    formData.append("latitude", latitude.toString());
+    formData.append("longitude", longitude.toString());
+    formData.append("name", name);
+    formData.append("uf", uf);
+    formData.append("whatsapp", whatsapp);
+    if (selectedFile) formData.append("image", selectedFile);
+
+    await api.post("points", formData);
     alert("Ponto de coleta criado!");
     hisotry.push("/");
   }
@@ -129,7 +155,11 @@ const CreatePoint: React.FC = () => {
       </header>
 
       <form onSubmit={handleSubmit}>
-        <h1>Cadastro do ponto de coleta</h1>
+        <h1>
+          Cadastro do <br /> ponto de coleta
+        </h1>
+
+        <Dropzone onFileUploaded={setSelectedFile} />
 
         <fieldset>
           <legend>
@@ -167,7 +197,6 @@ const CreatePoint: React.FC = () => {
             </div>
           </div>
         </fieldset>
-
         <fieldset>
           <legend>
             <h2>Endereço</h2>
@@ -217,7 +246,6 @@ const CreatePoint: React.FC = () => {
             </div>
           </div>
         </fieldset>
-
         <fieldset>
           <legend>
             <h2>Ítens de coleta</h2>
@@ -237,7 +265,6 @@ const CreatePoint: React.FC = () => {
             ))}
           </ul>
         </fieldset>
-
         <button type="submit">Cadastrar ponto de coleta</button>
       </form>
     </div>

@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Ecoleta" title="#delicinha" src="../.github/logo.png" width="250px" />
+    <img alt="Ecoleta" title="#delicinha" src="../.github/logo.svg" width="250px" />
 </h1>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 ## 🚀 Sobre a aplicação
 
-A versão mobile do projeto Ecoleta representa a visão do usúario que deseja contribuir solciitar uma coleta na plataforma.
+A versão mobile do projeto Ecoleta representa a visão do usúario que deseja solicitar uma coleta na plataforma.
 
 ## :collision: Funcionalidades
 
@@ -22,7 +22,7 @@ A versão mobile do projeto Ecoleta representa a visão do usúario que deseja c
 
 ## :rocket: Tecnologias
 
-- Expo + Rect Icons
+- Expo
 - Maps
 - MailComposer
 - IBG API
